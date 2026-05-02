@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 
 function Header() {
   return (
-    <header>
+    <header className={styles.headerSection}>
       <h3>Orbital</h3>
       <Search placeholder='Search for materials, notes...' />
 
