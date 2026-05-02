@@ -12,6 +12,10 @@
   gap: 1rem;
 }
 
+.main h3 {
+  color: #667eea;
+}
+
 .configuration > button {
   margin-left: 8px;
 }
