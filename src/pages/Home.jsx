@@ -1,6 +1,11 @@
+import Header from "../components/Header/Header";
+
 function Home() {
   return (
-    <h1>Hello, world! This is the Orbital first page.</h1>
+    <>
+      <Header />
+      <h1>Hello, world!</h1>
+    </>
   )
 }
 
