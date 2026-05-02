@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 function Header() {
   return (
     <header>
-      <h1>Orbital</h1>
+      <h3>Orbital</h3>
       <Search placeholder='Search for materials, notes...' />
 
       <div className={styles.configuration}>
