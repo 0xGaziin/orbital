@@ -5,12 +5,12 @@ import Home from './pages/Home.jsx';
 
 function App() {
   return (
-    <BroserRouter>
+    <BrowserRouter>
       <Routes>
         {/* Main Route */}
         <Route path="/" element={<Home />} />
       </Routes>
-    </BroserRouter>
+    </BrowserRouter>
   );
 }
 
