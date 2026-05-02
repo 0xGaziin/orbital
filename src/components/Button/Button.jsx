@@ -1,9 +1,11 @@
 import styles from './Button.module.css';
 
-function Button({ content }) {
+function Button({ children, className }) {
   return (
-    <button className={styles.accessButton}>{content}</button>
-  )  
+    <button className={`${styles.btnBase} ${className}`}>
+      {children}
+    </button>
+  )
 }
 
 export default Button;

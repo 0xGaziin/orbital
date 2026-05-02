@@ -2,20 +2,64 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0 2rem;
+  height: 64px;
   border-bottom: 1px solid #e2e8f0;
+  background-color: #ffffff;
 }
 
 .main {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .main h3 {
-  color: #667eea;
+  margin: 0;
+  color: #6366f1;
+  font-weight: 700;
 }
 
-.configuration > button {
-  margin-left: 8px;
+.configuration {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btnIcon {
+  position: relative;
+  background: none;
+  border: none;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: #ef4444;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.btnProfile {
+  background-color: #6366f1;
+  border: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.2s;
+}
+
+.btnProfile:hover {
+  filter: brightness(0.9);
 }

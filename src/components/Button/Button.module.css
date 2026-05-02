@@ -1,8 +1,8 @@
-.accessButton {
-  background-color: #667eea;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 8px;
+.btnBase {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  outline: none;
 }

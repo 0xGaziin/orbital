@@ -1,3 +1,4 @@
+import { IoNotificationsOutline, IoPersonOutline } from "react-icons/io5";
 import Search from '../Search/Search.jsx';
 import Button from '../Button/Button.jsx';
 import styles from './Header.module.css';
@@ -11,8 +12,14 @@ function Header() {
       </div>
 
       <div className={styles.configuration}>
-        <Button content="Notifications"/>
-        <Button content="My Profile"/>
+        <Button className={styles.btnIcon}>
+          <IoNotificationsOutline size={16} />
+          <span className={styles.badge}></span>
+        </Button>
+        
+        <Button className={styles.btnProfile}>
+          <IoPersonOutline size={8} color="white" />
+        </Button>
       </div>
     </header>
   )
