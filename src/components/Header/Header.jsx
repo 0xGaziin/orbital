@@ -1,4 +1,5 @@
 import Search from '../Search/Search.jsx';
+import Button from '../Button/Button.jsx';
 import styles from './Header.module.css';
 
 function Header() {
@@ -8,11 +9,10 @@ function Header() {
         <h3>Orbital</h3>
         <Search placeholder='Search for materials, notes...' />
       </div>
-      
 
       <div className={styles.configuration}>
-        <button className='notification'>Notifications</button>
-        <button className='profile'>My Profile</button>
+        <Button content="Notifications"/>
+        <Button content="My Profile"/>
       </div>
     </header>
   )
