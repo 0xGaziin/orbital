@@ -51,13 +51,6 @@ function Home() {
           </div>
 
           <div className={styles.featureCard}>
-            <h3>Collaborative Sync</h3>
-            <p className={styles.featuresDescription}>
-              Easily share your study plans or notes with peers while keeping your personal progress private and securely backed up in the cloud.
-            </p>
-          </div>
-
-          <div className={styles.featureCard}>
             <h3>Advanced Markdown Notes</h3>
             <p className={styles.featuresDescription}>
               Create rich, structured documentation for your classes with support for code blocks, mathematical formulas, and hierarchical organization.
@@ -70,25 +63,11 @@ function Home() {
               Visualize your growth through detailed charts and statistics that track your study hours, completed tasks, and overall grade evolution.
             </p>
           </div>
-
-          <div className={styles.featureCard}>
-            <h3>Interactive Kanban Boards</h3>
-            <p className={styles.featuresDescription}>
-              Manage your assignments and projects using a dynamic drag-and-drop system to monitor what is pending, in progress, and completed.
-            </p>
-          </div>
-
+          
           <div className={styles.featureCard}>
             <h3>Exam Preparation Hub</h3>
             <p className={styles.featuresDescription}>
               Access specialized modules designed to help you organize mock exams, review sessions, and long-term preparation for major technical assessments.
-            </p>
-          </div>
-
-          <div className={styles.featureCard}>
-            <h3>Space Repetition System</h3>
-            <p className={styles.featuresDescription}>
-              Built-in review cycles based on cognitive science to ensure your notes move from short-term to long-term memory effectively.
             </p>
           </div>
         </div>
