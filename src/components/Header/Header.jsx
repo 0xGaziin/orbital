@@ -12,14 +12,7 @@ function Header() {
       </div>
 
       <div className={styles.configuration}>
-        <Button className={styles.btnIcon}>
-          <IoNotificationsOutline size={16} />
-          <span className={styles.badge}></span>
-        </Button>
-        
-        <Button className={styles.btnProfile}>
-          <IoPersonOutline size={8} color="white" />
-        </Button>
+        {/* To do later */ }
       </div>
     </header>
   )

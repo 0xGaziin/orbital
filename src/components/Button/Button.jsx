@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-function Button({ children, className }) {
+function Button({ placeholder }) {
   return (
-    <button className={`${styles.btnBase} ${className}`}>
-      {children}
+    <button>
+      {placeholder}
     </button>
   )
 }

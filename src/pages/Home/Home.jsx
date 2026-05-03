@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import Button from "../../components/Button/Button";
 import styles from './Home.module.css';
 
 function Home() {
