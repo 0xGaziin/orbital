@@ -21,6 +21,10 @@ function Home() {
           <Button name="Find Out More" />
         </div>
       </section>
+
+      <section className={styles.featuresSection}>
+        
+      </section>
     </>
   )
 }
