@@ -30,12 +30,12 @@ function Home() {
 
         <div className={styles.featuresGrid}>
           <h3>Subject Management</h3>
-          <p>
+          <p className={styles.featuresDescription}>
             Keep your curriculum organized by categories, semesters, or priority levels, ensuring you never lose track of your academic requirements.
           </p>
 
           <h3>Smart Pomodoro Timer</h3>
-          <p>
+          <p className={styles.featuresDescription}>
             Boost your productivity with a built-in focus timer that helps you maintain deep work sessions while managing necessary rest intervals.
           </p>
         </div>
