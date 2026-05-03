@@ -1,0 +1,24 @@
+.registerArea {
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.registerArea input {
+  display: block;
+  width: 100%;
+  margin: 16px auto;
+}
+
+.registerArea input[type="submit"] {
+  cursor: pointer;
+  background-color: #667eeace;
+  font-weight: bold;
+}
+
+.registerArea .warning {
+  font-size: 12px;
+  color: grey;
+  text-align: left;
+}

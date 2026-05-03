@@ -16,6 +16,7 @@ function SignUp() {
           <input type="text" placeholder="Username" />
           <input type="email" placeholder="E-mail (optional)" />
           <input type="password" placeholder="Password"/>
+          <input type="submit" value="Send" />
         </form>
 
         <p className={styles.warning}>
