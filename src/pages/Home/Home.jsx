@@ -23,7 +23,22 @@ function Home() {
       </section>
 
       <section className={styles.featuresSection}>
-        
+        <h2>Why choose Orbital?</h2>
+        <p className={styles.featuresDescription}>
+          Orbital is a smart solution for your studies. It centralizes your academic life, allowing you to focus on what really matters: learning. Transform your productivity with tools designed for high-performance students.
+        </p>
+
+        <div className={styles.featuresGrid}>
+          <h3>Subject Management</h3>
+          <p>
+            Keep your curriculum organized by categories, semesters, or priority levels, ensuring you never lose track of your academic requirements.
+          </p>
+
+          <h3>Smart Pomodoro Timer</h3>
+          <p>
+            Boost your productivity with a built-in focus timer that helps you maintain deep work sessions while managing necessary rest intervals.
+          </p>
+        </div>
       </section>
     </>
   )
