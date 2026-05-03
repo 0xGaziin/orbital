@@ -38,6 +38,16 @@ function Home() {
           <p className={styles.featuresDescription}>
             Boost your productivity with a built-in focus timer that helps you maintain deep work sessions while managing necessary rest intervals.
           </p>
+
+          <h3>Deep Work Analytics</h3>
+          <p className={styles.featuresDescription}>
+            Go beyond simple timers by tracking your peak productivity hours and identifying which subjects demand more of your mental energy.
+          </p>
+
+          <h3>Collaborative Sync</h3>
+          <p className={styles.featuresDescription}>
+            Easily share your study plans or notes with peers while keeping your personal progress private and securely backed up in the cloud.
+          </p>          
         </div>
       </section>
     </>
