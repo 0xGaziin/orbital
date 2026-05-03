@@ -17,8 +17,8 @@ function Home() {
         </p>
 
         <div className={styles.actions}>
-          <button>Start Now</button>
-          <button>Find Out More</button>
+          <Button name="Start Now"/>
+          <Button name="Find Out More" />
         </div>
       </section>
     </>
