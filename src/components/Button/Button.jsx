@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-function Button({ placeholder }) {
+function Button({ name }) {
   return (
     <button>
-      {placeholder}
+      {name}
     </button>
   )
 }
