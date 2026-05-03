@@ -22,7 +22,7 @@ function SignUp() {
         </form>
 
         <p className={styles.warning}>
-          By creating an account, you agree to our <Link to='/terms'>Terms</Link>.
+          By creating an account, you agree to our <Link className='link' to='/terms'>Terms</Link>.
         </p>
       </div>
     </>
